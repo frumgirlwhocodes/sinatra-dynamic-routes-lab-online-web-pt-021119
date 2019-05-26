@@ -27,6 +27,9 @@ get '/square/:number' do
     "#{@word_1} #{@word_2} #{@word_3} #{@word_4} #{@word_5}."
 end
 get '/:operation/:number1/:number2'
-
+ @operation = params[:operation]
+    @num_1 = params[:number1].to_i
+    @num_2 = params[:number2].to_i
+    erb :operation
 
 end 
