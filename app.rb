@@ -17,6 +17,5 @@ get '/square/:number' do
     phrase=[]
     @number.times { |x| phrase << @phrase} 
     phrase.join(" ")
-    
-  end 
+     end 
 end
