@@ -25,4 +25,5 @@ get '/square/:number' do
     @word_4 = params[:word4]
     @word_5 = params[:word5] 
     "#{@word_1} #{@word_2} #{@word_3} #{@word_4} #{@word_5}."
+  end 
 end
