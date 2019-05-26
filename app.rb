@@ -11,4 +11,6 @@ get '/square/:number' do
   @square= @number * @number 
   @square.to_s 
   end 
+  get '/say/:number/:phrase' do 
+    
 end
